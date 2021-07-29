@@ -6,7 +6,8 @@ module.exports = {
   // define env variable using webpack define plugin
   devServer: {
     port: 3000,
-    hot: true
+    hot: true,
+    open: true
   },
   plugins: [
     new webpack.DefinePlugin({
